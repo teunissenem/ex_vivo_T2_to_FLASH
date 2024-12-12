@@ -10,9 +10,13 @@ These scripts can be used in batch, with the bash script expecting the following
 |-INDD123456N
 |--*FOLLOWING SCANS MUST BE INCLUDED*
 |--123456N.nii.gz (original T2)
+
 |--123456N_reorient.nii.gz (edited header information ex. SRP--> IRA)
+
 |--123456N_reslice.nii.gz (manually adjusted image to AC/PC align the image; same header info as reorient)
+
 |--123456N_reslice.mat (contains the affine transformation matrix to convert reorient --> reslice)
+
 |--123456N_cortexdots_final.nii.gz (cortical dots segmentation file - includes dots placed throughout the brain image, labeling different cortical regions) (19Dots_LabelDescription.txt contains the dot segmentation labels for viewing in ITK-SNAP)
 |--123456N_e2_FLASH.nii.gz (original FLASH image)
 |--*GENERATED FILES BY REPO*
