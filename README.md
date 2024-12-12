@@ -7,8 +7,8 @@ Dependencies for this pipeline include the following:
 
 These scripts can be used in batch, with the bash script expecting the following file structure:
 
--INDD123456N
-  *FOLLOWING SCANS MUST BE INCLUDED*
+INDD123456N
+ *FOLLOWING SCANS MUST BE INCLUDED*
  -123456N.nii.gz (original T2)
  -123456N_reorient.nii.gz (edited header information ex. SRP--> IRA)
  -123456N_reslice.nii.gz (manually adjusted image to AC/PC align the image; same header info as reorient)
