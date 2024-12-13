@@ -6,7 +6,7 @@ Dependencies for this pipeline include the following:
 - greedy
   
 Order of operations:
-1. First run reorient_secondary.py to generate FLASH reslice images (credit: Paul Yushkevich)
+1. First run reorient_secondary.py to generate FLASH reorient images (credit: Paul Yushkevich)
 ```
 python reorient_secondary.py \
   -primary_original C:/PATH/TO/PROJECT/INDD123456N/123456N.nii.gz
